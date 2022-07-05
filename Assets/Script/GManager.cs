@@ -41,7 +41,11 @@ public class GManager : MonoBehaviour
         GameOverPanel.SetActive(false);
         ResetBotton.SetActive(false);
         ClearBottom.SetActive(false);
-       
+
+        Screen.SetResolution(1920, 1080, false);
+        Application.targetFrameRate = 60;
+
+
     }
 
     // Update is called once per frame
